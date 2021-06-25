@@ -1,0 +1,120 @@
+body {
+  font-family: 'Arimo', 'Open Sans', serif!important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Arimo', sans-serif;
+}
+
+.main-navigation {
+  float: right;
+}
+
+.jumbotron{
+  background-image: url("../img/banner5.jpg");
+  background-size: cover;
+}
+
+#votingPage{
+  margin-top:100px;
+}
+
+#blockvote-card{
+  -webkit-box-shadow: 3px 10px 44px 0px rgba(222,222,222,1);
+  -moz-box-shadow: 3px 10px 44px 0px rgba(222,222,222,1);
+  box-shadow: 3px 10px 44px 0px rgba(222,222,222,1);
+  margin: 0px auto!important;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.vote_icon{position: relative;}
+.vote_icon:after {
+  position: absolute;
+  background: url(../img/ballot.png) no-repeat;
+  content: "";
+  background-size: 100%;
+  width: 15px;
+  height: 20px;
+  top: 6px;
+  right: inherit;
+}
+
+#hero {
+  width: 100%;
+  height: 70vh;
+  position: relative;
+}
+
+#hero:before{
+  content: "";
+  background: rgba(0, 0, 0, 0.6);
+  position: relative;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#hero .hero-container {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 15px;
+}
+
+#hero h3 {
+  color: #e0e0e0;
+  font-size: 40px;
+  font-weight: 800;
+  padding: 10px 30px;
+  margin-bottom: 30px;
+}
+
+#hero h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 56px;
+  text-transform: uppercase;
+  color: #f5f5f5;
+}
+
+#hero h2 {
+  color: #a9a9a9;
+  margin-bottom: 40px;
+  font-size: 24px;
+}
+
+#hero .btn-get-started {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 30px 9px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  border: 2px solid #fff;
+  color: #fff;
+  margin-top: 10px;
+}
+
+#hero .btn-get-started:hover {
+  background: #e43c5c;
+  border: 2px solid #e43c5c;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
